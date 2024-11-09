@@ -7,7 +7,7 @@ function Home() {
     <>
       <div className='flex'>
         <Navbar />
-        <section className="flex flex-col lg:flex-row items-center justify-center min-h-screen  text-white p-8">
+        <section className="flex flex-col lg:flex-row items-center justify-center min-h-screen  text-white p-[10rem]">
           {/* Text Section */}
           <div className="flex flex-col items-start space-y-4 text-center lg:text-left lg:w-1/2">
             <p className="text-yellow-500">Hello, Welcome</p>

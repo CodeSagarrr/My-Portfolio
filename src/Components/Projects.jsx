@@ -1,7 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 import Navbar from "./Navbar";
-import { projects  } from '../images/ProjectLinks.jsx'
+import { projects  } from '../Components/ProjectLinks.jsx'
 
 
 
