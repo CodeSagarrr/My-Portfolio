@@ -7,7 +7,7 @@ function About() {
         <>
             <div className='flex'>
                 <Navbar />
-                <section className="flex flex-col lg:flex-row items-center justify-center min-h-screen  text-white px-6 lg:px-20 py-10">
+                <section className="flex flex-col lg:flex-row items-center justify-center min-h-screen  text-white px-6 lg:px-28 py-10">
                     {/* Image Section */}
 
 
