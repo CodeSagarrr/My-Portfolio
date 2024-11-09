@@ -1,13 +1,14 @@
 import React from 'react'
 import Navbar from './Navbar'
 import { motion } from 'framer-motion';
+import resume from '../images/Resume.pdf'
 
 function Home() {
   return (
     <>
       <div className='flex'>
         <Navbar />
-        <section className="flex flex-col lg:flex-row items-center justify-center min-h-screen  text-white p-[10rem]">
+        <section className="flex flex-col lg:flex-row items-center justify-center min-h-screen  text-white p-[3rem]">
           {/* Text Section */}
           <div className="flex flex-col items-start space-y-4 text-center lg:text-left lg:w-1/2">
             <p className="text-yellow-500">Hello, Welcome</p>
@@ -18,8 +19,9 @@ function Home() {
             <motion.button
               whileHover={{ scale: 1.1 }}
               className="bg-yellow-500 text-black font-semibold py-2 px-4 rounded mx-auto lg:mx-0"
-            >
+             ><a href={resume} download={resume}>
              My Resume
+             </a>
             </motion.button>
           </div>
 
