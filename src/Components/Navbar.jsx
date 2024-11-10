@@ -10,7 +10,7 @@ const Navbar = () => {
 
         
 
-            <header className=" flex flex-col flex-wrap sm:w-[21vw] w-full sm:h-full h-[68px]  sm:p-4 p-[10px] border-r-2 border-[#EBB306] bg-gray-900 text-white ">
+            <header className=" flex flex-col flex-wrap sm:w-[21vw] w-full sm:h-full h-[68px]  sm:p-4 p-[9px] border-r-2 border-[#EBB306] bg-gray-900 text-white ">
                 <div >
                     <h1 className=' text-2xl font-bold text-[#EBB306] sm:block hidden'>Portfolio</h1>
                 </div>
