@@ -13,7 +13,7 @@ const socialLinks = [
 
 const Footer = () => {
   return (
-    <div className=" text-white py-10 px-5 md:px-20">
+    <div className=" text-white border-t-2 border-yellow-500 py-10 px-5 md:px-20">
       <div className="container mx-auto flex flex-col md:flex-row justify-between items-center">
         {/* Logo/Brand */}
         <motion.div

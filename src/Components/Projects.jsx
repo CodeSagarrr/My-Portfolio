@@ -8,10 +8,10 @@ import { projects  } from '../Components/ProjectLinks.jsx'
 const Projects = () => {
   return (
     <>
-    <div className="flex"> 
+    <div className="flex sm:flex-row flex-col"> 
         <Navbar/>
 
-    <div className="py-20 px-6 bg-gray-900 text-white flex flex-col w-full items-center" id="projects">
+    <div className="sm:py-20 py-8 px-6 bg-gray-900 text-white flex flex-col w-full items-center" id="projects">
       <h2 className="text-4xl font-bold mb-12 text-yellow-500">Projects</h2>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-8">
         {projects.map((project, index) => (

@@ -20,10 +20,10 @@ function Skills() {
 
     return (
         <>
-            <div className='flex'>
+            <div className='flex  sm:flex-row flex-col'>
             <Navbar/>
 
-                <div className="py-20 bg-gray-900 text-white flex flex-col w-full items-center" id="skills">
+                <div className="sm:py-20 py-8  text-white flex flex-col w-full items-center" id="skills">
                     <h2 className="text-4xl font-bold mb-12 text-yellow-500">Skills</h2>
                     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
                         {skills.map((skill, index) => (
