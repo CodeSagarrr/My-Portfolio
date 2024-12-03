@@ -2,6 +2,7 @@ import React from 'react'
 import Navbar from './Navbar'
 import { motion } from 'framer-motion';
 import resume from '../images/SagarCv.pdf'
+import Image from '../images/Sagar.jpeg'
 
 function Home() {
   return (
@@ -19,7 +20,7 @@ function Home() {
             <motion.button
               whileHover={{ scale: 1.1 }}
               className="bg-yellow-500 text-black font-semibold py-2 px-4 rounded mx-auto lg:mx-0"
-             ><a href={"C:\Users\suraj\Downloads\SagarCv.pdf"} download={"C:\Users\suraj\Downloads\SagarCv.pdf"}>
+             ><a href={resume} download={resume}>
              My Resume
              </a>
             </motion.button>
@@ -27,13 +28,13 @@ function Home() {
 
           {/* Image Section */}
           <motion.div
-            className="mt-8 lg:mt-0 lg:ml-12 rounded-full border-4 border-yellow-500 lg:w-1/3 sm:w-1/2 w-[71%]"
+            className="mt-8 lg:mt-0 rounded-full border-4 border-yellow-500 lg:w-1/3 sm:w-1/2 w-[71%]"
             initial={{ opacity: 0, x: 100 }}
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 1 }}
           >
             <img
-              src="https://static.vecteezy.com/system/resources/thumbnails/011/153/368/small_2x/3d-website-developer-working-on-laptop-illustration-png.png"
+              src={Image}
               alt="profile"
               className="rounded-full"
             />
