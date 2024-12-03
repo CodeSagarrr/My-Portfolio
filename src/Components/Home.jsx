@@ -19,7 +19,7 @@ function Home() {
             <motion.button
               whileHover={{ scale: 1.1 }}
               className="bg-yellow-500 text-black font-semibold py-2 px-4 rounded mx-auto lg:mx-0"
-             ><a href={resume} download={resume}>
+             ><a href={"C:\Users\suraj\Downloads\SagarCv.pdf"} download={"C:\Users\suraj\Downloads\SagarCv.pdf"}>
              My Resume
              </a>
             </motion.button>
