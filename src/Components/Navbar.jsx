@@ -16,7 +16,7 @@ const Navbar = () => {
                 </div>
 
 
-                <div className='flex flex-wrap sm:flex-col flex-row sm:h-[92vh]  items-center  justify-center font-[Roboto] font-medium'>
+                <div className='flex flex-wrap sm:flex-col flex-row sm:h-[99vh]  items-center  justify-center font-[Roboto] font-medium'>
                     <nav className='flex sm:flex-col flex-row '>
                         <Link to="/" className="sm:mr-4 mr-2 sm:mb-12 sm:mx-0 mx-4"><span className=' flex items-center sm:flex-row flex-col gap-x-2 text-[18px] font-bold'> <FaHome className='text-[22px]' />Home</span></Link>
 

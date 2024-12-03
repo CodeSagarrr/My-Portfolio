@@ -41,13 +41,13 @@ function About() {
                         </p>
                         <p className="text-gray-400 text-sm md:text-base max-w-md mx-auto lg:mx-0 sm:pb-0 pb-3">
                             
-                        Our skill set covers a wide range of modern technologies, from responsive frontend frameworks like React, and Tailwind to robust backend environments such as Node.js with Express.js. We specialize in building secure, efficient, and optimized systems, handling everything from MongoDB database architecture and API integration to interactive UI/UX design. Our goal is to deliver solutions that are not only technically sound but also aligned with your business objectives.
+                        Our skill set covers a wide range of modern technologies, from responsive frontend frameworks like React, and Tailwind and Next.js to robust backend environments such as Node.js with Express.js. We specialize in building secure, efficient, and optimized systems, handling everything from MongoDB database architecture and API integration to interactive UI/UX design. Our goal is to deliver solutions that are not only technically sound but also aligned with your business objectives.
                         </p>
                         <motion.button
                             whileHover={{ scale: 1.05 }}
                             className="sm:mt-4 mt-6 bg-yellow-500 text-black font-semibold py-2 px-6 rounded-lg"
                         >
-                            Contact Us
+                           <a href="https://www.linkedin.com/in/codesagarrr/"> Linkedin</a>
                         </motion.button>
                     </motion.div>
                 </section>

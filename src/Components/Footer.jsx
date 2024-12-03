@@ -5,10 +5,10 @@ import { FaLinkedin, FaGithub, FaTwitter, FaEnvelope , FaInstagramSquare  } from
 
 const socialLinks = [
   { icon: <FaInstagramSquare />, href: "https://www.instagram.com/dev.sgr_/", color: "hover:text-blue-500" },
-  { icon: <FaLinkedin />, href: "https://www.linkedin.com/in/sagar-vishwakarma-bb7939304/", color: "hover:text-blue-500" },
+  { icon: <FaLinkedin />, href: "https://www.linkedin.com/in/codesagarrr/", color: "hover:text-blue-500" },
   { icon: <FaGithub />, href: "https://github.com/CodeSagarrr", color: "hover:text-gray-500" },
   { icon: <FaTwitter />, href: "https://www.x.com/dev_sagar_7", color: "hover:text-blue-400" },
-  { icon: <FaEnvelope />, href: "sv472921@gmail.com", color: "hover:text-red-500" },
+  { icon: <FaEnvelope />, href: "", color: "hover:text-red-500" },
 ];
 
 const Footer = () => {

@@ -1,7 +1,7 @@
 import React from 'react'
 import Navbar from './Navbar'
 import { motion } from 'framer-motion';
-import resume from '../images/Resume.pdf'
+import resume from '../images/SagarCv.pdf'
 
 function Home() {
   return (
