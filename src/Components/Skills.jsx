@@ -4,7 +4,7 @@ import { FaReact, FaNodeJs, FaCss3Alt, FaHtml5 } from "react-icons/fa";
 import { SiJavascript, SiTailwindcss , SiNextdotjs , SiExpress , SiTypescript  } from "react-icons/si";
 import { RiFirebaseFill } from "react-icons/ri";
 import Navbar from './Navbar';
-import { BiLogoPostgresql } from 'react-icons/bi';
+import { BiLogoMongodb, BiLogoPostgresql } from 'react-icons/bi';
 function Skills() {
 
 
