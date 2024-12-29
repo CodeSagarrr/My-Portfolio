@@ -5,7 +5,7 @@ import { SiJavascript, SiTailwindcss , SiNextdotjs , SiExpress , SiTypescript  }
 import { GrMysql } from "react-icons/gr";
 import { RiFirebaseFill } from "react-icons/ri";
 import Navbar from './Navbar';
-import { BiLogoMongodb } from 'react-icons/bi';
+import { BiLogoPostgresql } from 'react-icons/bi';
 function Skills() {
 
 
@@ -19,7 +19,7 @@ function Skills() {
         { name: "Node.js", icon: <FaNodeJs className="text-green-500" />, color: "bg-green-100 text-slate-800" },
         { name: "Express.js", icon: <SiExpress  className="text-black" />, color: "bg-white  text-black"  },
         { name: "Next.Js", icon: <SiNextdotjs  className="text-white" />, color: "bg-black  text-white"  },
-        { name: "MySQL", icon: <GrMysql  className="text-blue-500" />, color: "bg-blue-200  text-slate-800"  },
+        { name: "PostgresSQL", icon: <BiLogoPostgresql  className="text-blue-500" />, color: "bg-blue-200  text-slate-800"  },
         { name: "MongoDB", icon: <BiLogoMongodb  className="text-green-600" />, color: "bg-green-200 text-slate-800" },
         { name: "FireBase", icon: <RiFirebaseFill  className="text-[#FF9100]" />, color: "bg-yellow-100  text-slate-800"  },         
     ];
