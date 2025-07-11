@@ -2,6 +2,7 @@ import logo1 from '../images/ecommerce.png'
 import logo4 from '../images/eraser.png'
 import logo2 from '../images/chat-app.png'
 import logo3 from '../images/clone.png'
+import logo5 from '../images/Bio.png'
 export const projects = [
     {
       title: "E-Commerce-Firebase",
@@ -10,9 +11,15 @@ export const projects = [
       link: "http://e-commerce-deploy.netlify.app",
     },
     {
-      title: "Eraser Application",
-      description: "modern web app built with Next.js allows users to create, edit, sketch , and manage content and charts.",
+      title: "FlowBoard – Real-Time Visual Canvas ",
+      description: "Developed a real-time collaborative technical design and documentation.",
       image:logo4, 
+      link: "https://eraser-application.vercel.app/",
+    },
+      {
+      title: "Bios - Generator",
+      description: "An AI-powered tool that creates personalized social media bios based on your name, profession, interests, and skills.",
+      image:logo5, 
       link: "https://eraser-application.vercel.app/",
     },
     {
